@@ -1,0 +1,28 @@
+{
+  "name": "dhc",
+  "version": "0.1.0",
+  "description": "Javascript bindings for the Dfinity Haskell to WebAssembly compiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfinity/dhc-js.git"
+  },
+  "keywords": [
+    "dfinity",
+    "dhc",
+    "haskell",
+    "wasm"
+  ],
+  "author": "floorlamp",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dfinity/dhc-js/issues"
+  },
+  "homepage": "https://github.com/dfinity/dhc-js#readme",
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
+}

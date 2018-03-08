@@ -1,5 +1,5 @@
 <!---
-[![NPM Package](https://img.shields.io/npm/v/dhc-js.svg?style=flat-square)](https://www.npmjs.org/package/dhc-js)
+[![NPM Package](https://img.shields.io/npm/v/dhc.svg?style=flat-square)](https://www.npmjs.org/package/dhc)
 [![Build Status](https://img.shields.io/travis/dfinity/dhc-js.svg?branch=master&style=flat-square)](https://travis-ci.org/dfinity/dhc-js)
 [![Coverage Status](https://img.shields.io/coveralls/dfinity/dhc-js.svg?style=flat-square)](https://coveralls.io/r/dfinity/dhc-js)
 -->
@@ -10,15 +10,15 @@ Javascript bindings for the [Dfinity Haskell to WebAssembly compiler](https://gi
 
 Compiled via GHCJS.
 
-<!---
+-
 ## Installation
-`npm install dhc-js`
--->
+`npm install dhc`
+
 
 ## Usage
 
 ```javascript
-const dhc = require('dhc-js')
+const dhc = require('dhc')
 
 const output = dhc.compileHsToWasm('main = putStr "Hello"')
 // [ 0, 97, 115, 109, ... ]
